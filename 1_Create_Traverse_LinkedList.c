@@ -17,7 +17,6 @@ int main(){
 
 void traverseList() {
     struct node *temp = head;
-    printf("%d\n", temp->data);
     for (int i = 0; ; i++) {
         if (temp != NULL)
             printf("%d : %d\n", i, temp->data);
