@@ -15,5 +15,6 @@ void main () {
         c[count++] = ch;
     }
     c[count] = '\0';
+    printf("Your entered\n");
     printf("%s", c);
 }
